@@ -1,0 +1,52 @@
+{
+    "guid": "32a6a248-af78-3df7-37df-035dfef0f1a8",
+    "source": "../../Textures/PNG/T_groundDirt_D.png",
+    "assetTypeGuid": "c4e01aa2-495d-4eb1-b9be-fe0e30500b07",
+    "resolution": [
+        808.0,
+        71.0
+    ],
+    "preset": 4,
+    "usage_flags": 6,
+    "bc_data": {
+        "format": 137,
+        "mipmap_info": [
+            {
+                "level": 0,
+                "offset": 0,
+                "size": 58176
+            },
+            {
+                "level": 1,
+                "offset": 58176,
+                "size": 14544
+            },
+            {
+                "level": 2,
+                "offset": 72720,
+                "size": 4080
+            },
+            {
+                "level": 3,
+                "offset": 76800,
+                "size": 832
+            },
+            {
+                "level": 4,
+                "offset": 77632,
+                "size": 208
+            },
+            {
+                "level": 5,
+                "offset": 77840,
+                "size": 112
+            },
+            {
+                "level": 6,
+                "offset": 77952,
+                "size": 48
+            }
+        ]
+    },
+    "astc_data": {}
+}

@@ -1,0 +1,62 @@
+{
+    "guid": "d37e4699-7047-7897-0080-7c283e16f0b8",
+    "source": "../../Textures/PNG/UI/T_menuBG_D.png",
+    "assetTypeGuid": "c4e01aa2-495d-4eb1-b9be-fe0e30500b07",
+    "resolution": [
+        264.0,
+        264.0
+    ],
+    "preset": 4,
+    "usage_flags": 6,
+    "bc_data": {
+        "format": 137,
+        "mipmap_info": [
+            {
+                "level": 0,
+                "offset": 0,
+                "size": 69696
+            },
+            {
+                "level": 1,
+                "offset": 69696,
+                "size": 17424
+            },
+            {
+                "level": 2,
+                "offset": 87120,
+                "size": 4624
+            },
+            {
+                "level": 3,
+                "offset": 91744,
+                "size": 1296
+            },
+            {
+                "level": 4,
+                "offset": 93040,
+                "size": 256
+            },
+            {
+                "level": 5,
+                "offset": 93296,
+                "size": 64
+            },
+            {
+                "level": 6,
+                "offset": 93360,
+                "size": 16
+            },
+            {
+                "level": 7,
+                "offset": 93376,
+                "size": 16
+            },
+            {
+                "level": 8,
+                "offset": 93392,
+                "size": 16
+            }
+        ]
+    },
+    "astc_data": {}
+}

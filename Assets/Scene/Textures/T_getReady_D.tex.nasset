@@ -1,0 +1,52 @@
+{
+    "guid": "bc5757d2-5cb4-9e82-c06a-755f92566342",
+    "source": "../../Textures/PNG/UI/T_getReady_D.png",
+    "assetTypeGuid": "c4e01aa2-495d-4eb1-b9be-fe0e30500b07",
+    "resolution": [
+        400.0,
+        73.0
+    ],
+    "preset": 4,
+    "usage_flags": 6,
+    "bc_data": {
+        "format": 137,
+        "mipmap_info": [
+            {
+                "level": 0,
+                "offset": 0,
+                "size": 30400
+            },
+            {
+                "level": 1,
+                "offset": 30400,
+                "size": 7200
+            },
+            {
+                "level": 2,
+                "offset": 37600,
+                "size": 2000
+            },
+            {
+                "level": 3,
+                "offset": 39600,
+                "size": 624
+            },
+            {
+                "level": 4,
+                "offset": 40224,
+                "size": 112
+            },
+            {
+                "level": 5,
+                "offset": 40336,
+                "size": 48
+            },
+            {
+                "level": 6,
+                "offset": 40384,
+                "size": 32
+            }
+        ]
+    },
+    "astc_data": {}
+}

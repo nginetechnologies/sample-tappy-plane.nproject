@@ -1,0 +1,47 @@
+{
+    "guid": "7faa5dd9-186d-b367-cfea-9ba6bf3a39d0",
+    "source": "../../Textures/PNG/Letters/T_letterR_D.png",
+    "assetTypeGuid": "c4e01aa2-495d-4eb1-b9be-fe0e30500b07",
+    "resolution": [
+        51.0,
+        65.0
+    ],
+    "preset": 4,
+    "usage_flags": 6,
+    "bc_data": {
+        "format": 137,
+        "mipmap_info": [
+            {
+                "level": 0,
+                "offset": 0,
+                "size": 3536
+            },
+            {
+                "level": 1,
+                "offset": 3536,
+                "size": 896
+            },
+            {
+                "level": 2,
+                "offset": 4432,
+                "size": 192
+            },
+            {
+                "level": 3,
+                "offset": 4624,
+                "size": 64
+            },
+            {
+                "level": 4,
+                "offset": 4688,
+                "size": 16
+            },
+            {
+                "level": 5,
+                "offset": 4704,
+                "size": 16
+            }
+        ]
+    },
+    "astc_data": {}
+}
