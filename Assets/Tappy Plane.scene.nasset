@@ -26,7 +26,7 @@
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": ""
+                "scene": "50e4064e-86f1-2814-d5a5-b981243910af"
             }
         },
         {
@@ -39,7 +39,7 @@
                     2.9938
                 ],
                 "rotation": [
-                    -45.0124,
+                    -45.0,
                     0.0,
                     0.0
                 ]
@@ -53,7 +53,7 @@
             "8f32c5fc-bac8-4d50-97df-bdf0be0ad32e": {
                 "color": "#fdfdfd00",
                 "cascades": 4,
-                "intensity": 1.0,
+                "intensity": 5.0,
                 "cascade_distances": [
                     6.0,
                     12.0,
