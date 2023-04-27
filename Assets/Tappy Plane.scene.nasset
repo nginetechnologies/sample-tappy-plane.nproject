@@ -31,7 +31,6 @@
         },
         {
             "typeGuid": "8f32c5fc-bac8-4d50-97df-bdf0be0ad32e",
-            "instanceGuid": "59ee1ac2-c4c3-18c2-32b4-527f2c2e8032",
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
                     3.2569,
@@ -63,10 +62,6 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "59ee1ac2-c4c3-18c2-32b4-527f2c2e8032"
-                },
-                {
                     "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
                     "mask": [
                         "13ca71b8-d868-4f7c-a0bb-c7585db11327"
@@ -80,7 +75,6 @@
         },
         {
             "typeGuid": "7be15c72-f784-4f5e-b895-7cc2fbef6355",
-            "instanceGuid": "59ee1ac2-c4c3-18c2-32b4-527f2c2e8032",
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
                     -25.1404,
@@ -107,10 +101,6 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "59ee1ac2-c4c3-18c2-32b4-527f2c2e8032"
-                },
-                {
                     "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
                     "mask": [
                         "13ca71b8-d868-4f7c-a0bb-c7585db11327"
@@ -125,7 +115,6 @@
         },
         {
             "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
-            "instanceGuid": "f695b7d2-b906-4085-5b54-71c0ed7599b6",
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "scale": [
                     5.0
@@ -142,10 +131,7 @@
                 "material_instance": "61327e65-3e13-4c49-bdac-3c9e90cf4ff1"
             },
             "data_components": [
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "f695b7d2-b906-4085-5b54-71c0ed7599b6"
-                },
+
                 {
                     "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
                     "mask": [
