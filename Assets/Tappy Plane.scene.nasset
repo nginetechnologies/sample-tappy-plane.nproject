@@ -46,42 +46,61 @@
                     }
                 }
             }
-        },
-        {
-            "typeGuid": "64215a37-64a6-45bd-ba87-10abe74da0f9"
         }
     ],
     "children": [
         {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "26b8d26e-9c57-8743-d1a7-119e31a9fe6e",
+            "typeGuid": "d2c2c3a5-b813-4ab8-b52f-7986940e5b67",
+            "data_components": [
+                {
+                    "typeGuid": "f1dad7f0-0053-4a05-af00-0cc2a88f1913",
+                    "asset": "ca38d06e-ea90-404e-af3d-749c406c6c09"
+                },
+                {
+                    "typeGuid": "b17f5afc-5476-4345-82ae-56ea87607d17"
+                },
+                {
+                    "typeGuid": "1e7d22e0-52c4-4c64-8c37-20887eaee664"
+                },
+                {
+                    "typeGuid": "b60ddb15-deda-47d5-a53b-7a7289bc8ae3"
+                },
+                {
+                    "typeGuid": "0eac250f-0917-43ea-871f-b6ae73ececf9"
+                }
+            ]
+        },
+        {
+            "typeGuid": "88a0cdbb-2826-46e3-b372-2a5154eacb61",
+            "instanceGuid": "72E17C05-8669-4C7E-A018-26C037D4021A",
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
-                    -2.0411,
-                    -0.3562,
-                    1.0147
-                ]
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "referenced": true
+            },
+            "88a0cdbb-2826-46e3-b372-2a5154eacb61": {
+                "asset": "3C48AFF5-B169-422A-829A-D5DC4F48A4B3"
             },
             "data_components": [
                 {
                     "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
                     "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
+                        "997e9c4d-d494-4a6e-bb6c-620ced5fabde"
                     ]
                 },
                 {
                     "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Tappy Plane"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "26b8d26e-9c57-8743-d1a7-119e31a9fe6e"
+                    "name": "Spawn Point"
                 }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "47f83371-9d8d-5384-39e5-b112c226e822"
-            }
+            ]
         },
         {
             "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
@@ -89,8 +108,8 @@
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
                     0.0,
-                    -0.1,
-                    0.3975
+                    0.2,
+                    0.0
                 ]
             },
             "data_components": [
@@ -120,8 +139,8 @@
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
                     0.0,
-                    -0.2497,
-                    -2.0
+                    0.1,
+                    -2.5
                 ]
             },
             "data_components": [
@@ -135,723 +154,388 @@
                 {
                     "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
                     "name": "Ground Dirt"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "1d43c23d-187c-762d-8c4d-2b6325379ae3"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
                 "scene": "dec467aa-5f4b-b968-f095-f3a9754365f4"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "90adf71c-6c51-b6ce-14fb-eae5f32e4ded",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    1.0,
-                    -0.25,
-                    2.0
-                ]
             },
-            "data_components": [
+            "children": [
                 {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
+                    "typeGuid": "bb15f0a1-1644-44b2-9f6c-4c09ec7c7370",
+                    "instanceGuid": "AED72BA5-131C-429D-B8C5-0628F8AA24E5",
+                    "de8f8da2-d37f-41da-bc6e-580435fe605f": {
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "bb15f0a1-1644-44b2-9f6c-4c09ec7c7370": {
+                        "spawnPoint": {
+                            "typeGuid": "88a0cdbb-2826-46e3-b372-2a5154eacb61",
+                            "instanceGuid": "72E17C05-8669-4C7E-A018-26C037D4021A"
+                        },
+                        "mask": [
+                            "d6a09c51-8ccf-416e-8154-66f9404d2a44"
+                        ]
+                    },
+                    "data_components": [
+                        {
+                            "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Ground Respawn"
+                        },
+                        {
+                            "typeGuid": "653ee503-f473-47d2-be45-08a577d17b86",
+                            "type": 0,
+                            "layer": 0,
+                            "body_flags": 1,
+                            "maximumAngularVelocity": 2699.9997,
+                            "overriddenMass": 0.0,
+                            "gravityScale": 1.0
+                        }
+                    ],
+                    "children": [
+                        {
+                            "typeGuid": "e81f4e62-fee0-4182-9c1a-a47c053b813f",
+                            "instanceGuid": "2C5428E7-B180-49A4-8322-F635B716AB5C",
+                            "10dceba7-be9f-4a9d-9902-6f51bed634ab": {
+                                "physical_material": "db5dc618-2cfe-44e9-a319-69c503d090e7",
+                                "comOffset": [
+                                    0.0
+                                ]
+                            },
+                            "e81f4e62-fee0-4182-9c1a-a47c053b813f": {
+                                "half_extent": [
+                                    10.0,
+                                    2.0,
+                                    0.2
+                                ]
+                            },
+                            "data_components": [
+                                {
+                                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Ground Collider"
+                                }
+                            ]
+                        }
                     ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Rock Top"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "90adf71c-6c51-b6ce-14fb-eae5f32e4ded"
                 }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "46127e3b-148c-4f36-ae57-557745c7e0c7"
-            }
+            ]
         },
         {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "db1dc106-7448-ed2c-bc82-2eb593355a24",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    -1.0,
-                    -0.1718,
-                    -1.0
-                ]
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Rock Bottom 01"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "db1dc106-7448-ed2c-bc82-2eb593355a24"
-                }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "a1bdcd2d-3d20-bfa7-8878-2db3c026309e"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "5d015854-06ea-c0ce-55da-3c728ac2481a",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    -0.3659,
-                    -0.2249,
-                    -1.6081
-                ]
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Rock Bottom 02"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "5d015854-06ea-c0ce-55da-3c728ac2481a"
-                }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "4e868d36-0134-ae5b-1235-e0559517bab3"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "7c23cd8b-f6be-a2fb-8f40-2c7a9ddce127",
+            "typeGuid": "304ec37e-bce4-48b6-9c2e-6108738270ff",
+            "instanceGuid": "9D7145FE-45CE-4D3C-AAD3-BBABF72D29ED",
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
                     0.0,
-                    6.2498,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
                     0.0
                 ]
             },
-            "data_components": [
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
+            "304ec37e-bce4-48b6-9c2e-6108738270ff": {
+                "spline": {
+                    "points": [
+                        {
+                            "position": [
+                                5.0,
+                                0.0,
+                                0.0
+                            ],
+                            "backward": [
+                                0.0
+                            ],
+                            "forward": [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            "up": [
+                                0.0,
+                                0.0,
+                                1.0
+                            ],
+                            "is_bezier": true
+                        },
+                        {
+                            "position": [
+                                -5.0,
+                                0.0,
+                                0.0
+                            ],
+                            "backward": [
+                                -1.0,
+                                0.0,
+                                0.0
+                            ],
+                            "forward": [
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            "up": [
+                                0.0,
+                                0.0,
+                                1.0
+                            ],
+                            "is_bezier": true
+                        }
+                    ],
+                    "is_closed": false
+                },
+                "bounds": {
+                    "minimum": [
+                        -0.001
+                    ],
+                    "maximum": [
+                        0.001
                     ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Menu BG"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "7c23cd8b-f6be-a2fb-8f40-2c7a9ddce127"
                 }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "2812c379-3024-21f6-e56b-e51ded663911"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "a13b98e0-f39b-1c5b-7829-df80fa9c1ec1",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    0.0,
-                    4.6304,
-                    0.0
-                ]
             },
             "data_components": [
                 {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
+                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
                 },
                 {
                     "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Letter R"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "a13b98e0-f39b-1c5b-7829-df80fa9c1ec1"
+                    "name": "Spline"
                 }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "d61ad754-9b0f-a509-e94e-0085d755efc0"
-            }
+            ]
         },
         {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "e442901b-f2c2-76fc-c895-553555530315",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    0.0,
-                    3.447,
-                    0.0
-                ]
-            },
+            "typeGuid": "de8f8da2-d37f-41da-bc6e-580435fe605f",
+            "instanceGuid": "5AE2ECC9-2F0C-426F-A688-0F175B739F8E",
             "data_components": [
                 {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
-                },
-                {
                     "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Letter E"
+                    "name": "ColumnHolder"
                 },
                 {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "e442901b-f2c2-76fc-c895-553555530315"
+                    "typeGuid": "a8afbfa1-eba8-4228-b269-86b8ada445ec",
+                    "spline": {
+                        "typeGuid": "304ec37e-bce4-48b6-9c2e-6108738270ff",
+                        "instanceGuid": "9D7145FE-45CE-4D3C-AAD3-BBABF72D29ED"
+                    },
+                    "velocity": 1,
+                    "mode": 1
                 }
             ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "a593168b-ea31-efd2-711f-04e9d3de951e"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "7eee1628-7fb3-4663-acc5-558cae022bd9",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    0.0,
-                    5.1746,
-                    0.0
-                ]
-            },
-            "data_components": [
+            "children": [
                 {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
+                    "typeGuid": "de8f8da2-d37f-41da-bc6e-580435fe605f",
+                    "instanceGuid": "BE48F43F-969B-48CB-A84D-A61B48390934",
+                    "data_components": [
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Column"
+                        },
+                        {
+                            "typeGuid": "b4924268-895a-49b7-b1e9-e1b3969394d1",
+                            "asset": "12d1690a-6d29-7084-7f72-7ecc2b62b3d4"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
+                            "instanceGuid": "C839BF11-6972-4648-A828-E1A52A6FEA87",
+                            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
+                                "position": [
+                                    0.0,
+                                    0.1,
+                                    2.0
+                                ]
+                            },
+                            "data_components": [
+                                {
+                                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
+                                    "mask": [
+                                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
+                                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
+                                    ]
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Rock Top"
+                                }
+                            ],
+                            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
+                                "scene": "46127e3b-148c-4f36-ae57-557745c7e0c7"
+                            },
+                            "children": [
+                                {
+                                    "typeGuid": "bb15f0a1-1644-44b2-9f6c-4c09ec7c7370",
+                                    "instanceGuid": "85FA1AB8-515F-45A2-B6CD-99BBA428D745",
+                                    "de8f8da2-d37f-41da-bc6e-580435fe605f": {
+                                        "position": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ]
+                                    },
+                                    "bb15f0a1-1644-44b2-9f6c-4c09ec7c7370": {
+                                        "spawnPoint": {
+                                            "typeGuid": "88a0cdbb-2826-46e3-b372-2a5154eacb61",
+                                            "instanceGuid": "72E17C05-8669-4C7E-A018-26C037D4021A"
+                                        },
+                                        "mask": [
+                                            "d6a09c51-8ccf-416e-8154-66f9404d2a44"
+                                        ]
+                                    },
+                                    "data_components": [
+                                        {
+                                            "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
+                                        },
+                                        {
+                                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                            "name": "Top Respawn"
+                                        },
+                                        {
+                                            "typeGuid": "653ee503-f473-47d2-be45-08a577d17b86",
+                                            "type": 0,
+                                            "layer": 0,
+                                            "body_flags": 1,
+                                            "maximumAngularVelocity": 2699.9997,
+                                            "overriddenMass": 0.0,
+                                            "gravityScale": 1.0
+                                        }
+                                    ],
+                                    "children": [
+                                        {
+                                            "typeGuid": "e81f4e62-fee0-4182-9c1a-a47c053b813f",
+                                            "instanceGuid": "8AEDB47D-F247-449F-BBE6-136ABE11E89A",
+                                            "10dceba7-be9f-4a9d-9902-6f51bed634ab": {
+                                                "physical_material": "db5dc618-2cfe-44e9-a319-69c503d090e7",
+                                                "comOffset": [
+                                                    0.0
+                                                ]
+                                            },
+                                            "e81f4e62-fee0-4182-9c1a-a47c053b813f": {
+                                                "half_extent": [
+                                                    0.2,
+                                                    2.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "data_components": [
+                                                {
+                                                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
+                                                },
+                                                {
+                                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                                    "name": "Top Collider"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
+                            "instanceGuid": "5B392825-8A9B-44BF-B5B4-23E5B2789E57",
+                            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
+                                "position": [
+                                    0.0,
+                                    0.1,
+                                    -2.0
+                                ]
+                            },
+                            "data_components": [
+                                {
+                                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
+                                    "mask": [
+                                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
+                                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
+                                    ]
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Rock Bottom"
+                                }
+                            ],
+                            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
+                                "scene": "a1bdcd2d-3d20-bfa7-8878-2db3c026309e"
+                            },
+                            "children": [
+                                {
+                                    "typeGuid": "bb15f0a1-1644-44b2-9f6c-4c09ec7c7370",
+                                    "instanceGuid": "8B637FCB-4D49-421A-B1DB-DFD60738F2FE",
+                                    "de8f8da2-d37f-41da-bc6e-580435fe605f": {
+                                        "position": [
+                                            0.0,
+                                            0.0,
+                                            0.0
+                                        ]
+                                    },
+                                    "bb15f0a1-1644-44b2-9f6c-4c09ec7c7370": {
+                                        "spawnPoint": {
+                                            "typeGuid": "88a0cdbb-2826-46e3-b372-2a5154eacb61",
+                                            "instanceGuid": "72E17C05-8669-4C7E-A018-26C037D4021A"
+                                        },
+                                        "mask": [
+                                            "d6a09c51-8ccf-416e-8154-66f9404d2a44"
+                                        ]
+                                    },
+                                    "data_components": [
+                                        {
+                                            "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
+                                        },
+                                        {
+                                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                            "name": "Bottom Respawn"
+                                        },
+                                        {
+                                            "typeGuid": "653ee503-f473-47d2-be45-08a577d17b86",
+                                            "type": 0,
+                                            "layer": 0,
+                                            "body_flags": 1,
+                                            "maximumAngularVelocity": 2699.9997,
+                                            "overriddenMass": 0.0,
+                                            "gravityScale": 1.0
+                                        }
+                                    ],
+                                    "children": [
+                                        {
+                                            "typeGuid": "e81f4e62-fee0-4182-9c1a-a47c053b813f",
+                                            "instanceGuid": "C5B14927-CC5E-4EF2-A658-1ED91B9BE660",
+                                            "10dceba7-be9f-4a9d-9902-6f51bed634ab": {
+                                                "physical_material": "db5dc618-2cfe-44e9-a319-69c503d090e7",
+                                                "comOffset": [
+                                                    0.0
+                                                ]
+                                            },
+                                            "e81f4e62-fee0-4182-9c1a-a47c053b813f": {
+                                                "half_extent": [
+                                                    0.2,
+                                                    2.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "data_components": [
+                                                {
+                                                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
+                                                },
+                                                {
+                                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                                    "name": "Bottom Collider"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
                     ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Letter T"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "7eee1628-7fb3-4663-acc5-558cae022bd9"
-                }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "9336e21b-b827-db32-8baf-5f37ff23b736"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "54749dfb-1faa-4649-8e9e-a1817abfd60d",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    0.0,
-                    5.5584,
-                    0.0
-                ]
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Letter Y"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "54749dfb-1faa-4649-8e9e-a1817abfd60d"
-                }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "e402f180-9ea8-74fe-5dd3-6c430d2e1c05"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "b4e076ef-7e9a-ad2b-106d-78cc9fe7c964",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    0.0,
-                    2.1019,
-                    0.0
-                ]
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Game Over"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "b4e076ef-7e9a-ad2b-106d-78cc9fe7c964"
-                }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "4d4fe183-9171-bf92-a818-f8a3b6ea99b2"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "195ba054-0ebc-6bca-05ff-f6e6b0280ca2",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    0.0,
-                    5.8646,
-                    0.0
-                ]
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Medal"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "195ba054-0ebc-6bca-05ff-f6e6b0280ca2"
-                }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "6d0525d2-7c9e-41b0-196b-c38002fe4be9"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "cbe5a715-05a2-6a5b-9b0b-a6268256415d",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    0.0,
-                    2.4769,
-                    0.0
-                ]
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Get Ready"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "cbe5a715-05a2-6a5b-9b0b-a6268256415d"
-                }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "abe0270f-0404-9a3d-1d5a-f0b91ddfbcd1"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "d333243e-292c-fcf6-7285-1478f240645a",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    0.0,
-                    4.8958,
-                    0.0
-                ]
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Letter S"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "d333243e-292c-fcf6-7285-1478f240645a"
-                }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "9794467e-bc07-12fb-62b7-e757080fa5c5"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "29fbdaf7-a494-973f-91e7-626a03137195",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    0.0,
-                    3.173,
-                    0.0
-                ]
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Letter A"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "29fbdaf7-a494-973f-91e7-626a03137195"
-                }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "98e4b1c9-6309-486c-bef9-d1c94b56ded4"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "87f8279d-f855-3f3d-1cdb-484bf0930865",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    0.0,
-                    1.6411,
-                    0.0
-                ]
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Button"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "87f8279d-f855-3f3d-1cdb-484bf0930865"
-                }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "65ce995f-9f4b-a1d3-308f-2c589cdd49c1"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "6f3bd043-8638-51a4-5c17-9b063708ebfd",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    0.0,
-                    4.3161,
-                    0.0
-                ]
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Letter P"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "6f3bd043-8638-51a4-5c17-9b063708ebfd"
-                }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "6c701b85-694d-d90a-cb88-ceb78186ab5b"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "725d800b-7a75-102e-1018-114007ae6d99",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    0.0,
-                    3.7186,
-                    0.0
-                ]
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Letter L"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "725d800b-7a75-102e-1018-114007ae6d99"
-                }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "2d0f18ee-4fc5-8e77-0cf7-7294bb3a5a4b"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "03a1a767-6ab2-aacd-3fc0-fa59658cb681",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    0.0,
-                    4.0128,
-                    0.0
-                ]
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Letter N"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "03a1a767-6ab2-aacd-3fc0-fa59658cb681"
-                }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "74243769-0b04-07c2-fdf3-e4ec2fcdfa2c"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "a87023f0-46a7-ba8b-d1fa-59fab1e58d34",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    0.0,
-                    -0.25,
-                    1.9997
-                ]
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Score"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "a87023f0-46a7-ba8b-d1fa-59fab1e58d34"
-                }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "3d8ed58c-d8cb-8a47-6605-ad16d0045be4"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "96fed596-e777-168f-dc05-6da1b7916081",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    0.0,
-                    2.8436,
-                    0.0
-                ]
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Gold Star"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "96fed596-e777-168f-dc05-6da1b7916081"
-                }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "43158034-8239-c8dd-a409-2ad943ad1e25"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "2e44e7b3-d460-89b7-7f19-e94048795e18",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    -1.5454,
-                    -0.25,
-                    0.2317
-                ]
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Finger Tap"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "2e44e7b3-d460-89b7-7f19-e94048795e18"
-                }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "55275f98-b50b-2f93-374d-cb4981d95861"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "50da9682-27e9-3810-4a26-0dd040ac7134",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    -3.0,
-                    -0.25,
-                    0.9998
-                ]
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Tap Right"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "50da9682-27e9-3810-4a26-0dd040ac7134"
-                }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "5b7b876e-c788-daa5-e62b-ae5f7966c5df"
-            }
-        },
-        {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "3a2ec50e-dc54-5164-1cf9-d53296218cfa",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    -1.0,
-                    -0.25,
-                    0.9998
-                ]
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Tap Left"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "3a2ec50e-dc54-5164-1cf9-d53296218cfa"
-                }
-            ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "aac4bbbe-8da7-a0c0-be53-541d5ba28b25"
-            }
-        },
-        {
-            "typeGuid": "88a0cdbb-2826-46e3-b372-2a5154eacb61",
-            "instanceGuid": "c5fc3ded-3f99-b772-5a5c-8d3333f588f3",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    0.0,
-                    -30.0,
-                    5.0
-                ]
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "88a0cdbb-2826-46e3-b372-2a5154eacb61",
-                        "997e9c4d-d494-4a6e-bb6c-620ced5fabde"
-                    ]
-                },
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Spawn Point"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "d3f8c605-fcfb-7875-d708-d957a810e116"
                 }
             ]
         },

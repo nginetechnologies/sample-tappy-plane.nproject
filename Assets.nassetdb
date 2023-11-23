@@ -1,4 +1,12 @@
 {
+    "0503b085-ebe8-6e4b-eaab-a0b5b4b669bc": {
+        "assetTypeGuid": "be3e4b1b-40cb-409f-8bec-bcd10e57a3e2",
+        "path": "Assets/Plane.script.nasset"
+    },
+    "12d1690a-6d29-7084-7f72-7ecc2b62b3d4": {
+        "assetTypeGuid": "be3e4b1b-40cb-409f-8bec-bcd10e57a3e2",
+        "path": "Assets/Column.script.nasset"
+    },
     "2555d2bd-b538-4644-9e66-1f2cce56683f": {
         "assetTypeGuid": "01c2c136-57b4-4a69-b2af-3c2ea94c3f49",
         "path": "Project.nproject",
@@ -6,6 +14,15 @@
         "thumbnail": "95495a67-e062-43bc-8699-802e175ab942",
         "tags": [
             "5f1de2fb-690d-4f75-bbc3-b5e83a5d08d9"
+        ]
+    },
+    "3c48aff5-b169-422a-829a-d5dc4f48a4b3": {
+        "assetTypeGuid": "807d69a9-56ec-4032-bb92-d081df336672",
+        "componentTypeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
+        "path": "Assets/Tappy Plane Player.scene.nasset",
+        "tags": [
+            "7f567180-238f-4a1b-bcbf-fcd740c8a9ea",
+            "d6a09c51-8ccf-416e-8154-66f9404d2a44"
         ]
     },
     "5e09e372-89cd-b231-06f8-047c3dec1099": {
