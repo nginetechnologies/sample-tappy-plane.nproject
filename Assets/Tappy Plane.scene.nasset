@@ -43,7 +43,8 @@
                     "typeGuid": "b60ddb15-deda-47d5-a53b-7a7289bc8ae3"
                 },
                 {
-                    "typeGuid": "f1dad7f0-0053-4a05-af00-0cc2a88f1913"
+                  "typeGuid": "f1dad7f0-0053-4a05-af00-0cc2a88f1913",
+                  "asset": "ca38d06e-ea90-404e-af3d-749c406c6c09"
                 },
                 {
                     "typeGuid": "b17f5afc-5476-4345-82ae-56ea87607d17"
