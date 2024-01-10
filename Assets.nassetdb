@@ -1,4 +1,12 @@
 {
+    "0503b085-ebe8-6e4b-eaab-a0b5b4b669bc": {
+        "assetTypeGuid": "be3e4b1b-40cb-409f-8bec-bcd10e57a3e2",
+        "path": "Assets/Scripts/Plane.script.nasset"
+    },
+    "12d1690a-6d29-7084-7f72-7ecc2b62b3d4": {
+        "assetTypeGuid": "be3e4b1b-40cb-409f-8bec-bcd10e57a3e2",
+        "path": "Assets/Scripts/Column.script.nasset"
+    },
     "2555d2bd-b538-4644-9e66-1f2cce56683f": {
         "assetTypeGuid": "01c2c136-57b4-4a69-b2af-3c2ea94c3f49",
         "path": "Project.nproject",
@@ -8,14 +16,49 @@
             "5f1de2fb-690d-4f75-bbc3-b5e83a5d08d9"
         ]
     },
+    "3c48aff5-b169-422a-829a-d5dc4f48a4b3": {
+        "assetTypeGuid": "807d69a9-56ec-4032-bb92-d081df336672",
+        "componentTypeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
+        "path": "Assets/Tappy Plane Player.scene.nasset",
+        "tags": [
+            "7f567180-238f-4a1b-bcbf-fcd740c8a9ea",
+            "d6a09c51-8ccf-416e-8154-66f9404d2a44"
+        ]
+    },
+    "3db6ae4d-e8ea-9711-5544-1958bf263580": {
+        "assetTypeGuid": "5985a03a-dfc4-4338-b0cd-09f757c4a114",
+        "componentTypeGuid": "ea45accb-89d5-4816-9831-f116045b90e4",
+        "path": "Assets/SFX/Power-Up-7.audio.nasset"
+    },
+    "4c2fed81-0d4a-8002-f2aa-dd4ab464ac1c": {
+        "assetTypeGuid": "5985a03a-dfc4-4338-b0cd-09f757c4a114",
+        "componentTypeGuid": "ea45accb-89d5-4816-9831-f116045b90e4",
+        "path": "Assets/SFX/Engine-Circular-5.audio.nasset"
+    },
+    "5cda1860-fab3-4703-8d5e-6be3f95bbd87": {
+        "assetTypeGuid": "5985a03a-dfc4-4338-b0cd-09f757c4a114",
+        "componentTypeGuid": "ea45accb-89d5-4816-9831-f116045b90e4",
+        "path": "Assets/SFX/Explosion-4.audio.nasset"
+    },
     "5e09e372-89cd-b231-06f8-047c3dec1099": {
         "assetTypeGuid": "77b22fc4-d109-4dd3-a922-38388879fc90",
         "path": "Assets.nassetdb"
     },
+    "6f7f5e6e-537f-3a70-9981-1b27437db013": {
+        "assetTypeGuid": "be3e4b1b-40cb-409f-8bec-bcd10e57a3e2",
+        "path": "Assets/Scripts/ScoreTarget.script.nasset"
+    },
+    "b23e5655-af2d-f9f6-1fd6-74f936002119": {
+        "assetTypeGuid": "be3e4b1b-40cb-409f-8bec-bcd10e57a3e2",
+        "path": "Assets/Scripts/Rock.script.nasset"
+    },
     "f6605f9d-73a8-43a7-a39e-8b3a2a501375": {
         "assetTypeGuid": "807d69a9-56ec-4032-bb92-d081df336672",
         "componentTypeGuid": "2a2bce0a-6314-481b-a5a0-7d01e1c00b35",
-        "path": "Assets/Tappy Plane.scene.nasset"
+        "path": "Assets/Tappy Plane.scene.nasset",
+        "metadata": {
+            "bfb3d666-cd09-4266-af70-8cb9fc5f5d5b": "{\"position\":[-2.592226505279541,-10.982011795043946,5.3590898513793949],\"rotation\":[-17.44843864440918,-8.39939895413977e-10,-10.507966041564942]}"
+        }
     },
     "guid": "5e09e372-89cd-b231-06f8-047c3dec1099",
     "imported_assets": [
@@ -51,6 +94,7 @@
         "4aaca598-6cb7-867e-56d7-2172d722eca6",
         "4d4fe183-9171-bf92-a818-f8a3b6ea99b2",
         "4e868d36-0134-ae5b-1235-e0559517bab3",
+        "4f3283e9-da24-e328-2217-bf65d4a1f405",
         "502fedda-6663-b258-066d-e428e3aaf661",
         "55275f98-b50b-2f93-374d-cb4981d95861",
         "5b33f449-241b-7a84-4b69-41fd3344d52a",
@@ -75,6 +119,7 @@
         "7e2df630-b63b-5ac1-3fe2-09a30c290381",
         "808394bb-35c9-6a4f-c11a-699be9fe6ed8",
         "845e69cf-6753-9b83-4ec4-c8d6550d935f",
+        "8769d80a-9b2c-4774-b54c-3893256b07fd",
         "88083419-0776-c0f7-c8c2-c84286a18637",
         "8c28d161-2c74-5342-3ca6-529263c8d73f",
         "8c54eaf8-3b55-00b7-4af8-37fa31c0bac1",

@@ -14,9 +14,11 @@
     "library_directory": "lib",
     "thumbnail_guid": "95495a67-e062-43bc-8699-802e175ab942",
     "default_scene": "f6605f9d-73a8-43a7-a39e-8b3a2a501375",
-    "tags": [ "5f1de2fb-690d-4f75-bbc3-b5e83a5d08d9" ],
+    "tags": [
+        "5f1de2fb-690d-4f75-bbc3-b5e83a5d08d9"
+    ],
     "repository": "",
-    "source": "Tappy_Plane.nproject",
+    "source": "Project.nproject",
     "settings": {
         "5ED68A2E-C9AF-454F-AD1E-416044E6498A": {
             "type": "EF61ECBA-906C-481A-B501-966A6BB4729C",
@@ -38,5 +40,6 @@
             "type": "EF61ECBA-906C-481A-B501-966A6BB4729C",
             "value": "461BBB28-0A47-403D-8D35-E4E48AA89B75"
         }
-    }
+    },
+    "assetTypeGuid": "01c2c136-57b4-4a69-b2af-3c2ea94c3f49"
 }
