@@ -8,12 +8,13 @@ local zVelocity = 0.0
 
 local isFirstTap = true
 
-input.binary["D2B5D801-01EE-43B4-A8BB-77797A1C8214"] = function(isActive)
+input.binary["D2B5D801-01EE-43B4-A8BB-77797A1C8214"] = function(isActive)   
     if isActive then
         if isFirstTap then
             isFirstTap = false
         end
 
+        audio.Play()
         zVelocity = tapForce
     end
 end

@@ -76,33 +76,26 @@
                             "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
                             "name": "Plane Body"
                         }
-                    ],
-                    "children": [
+                    ]
+                },
+                {
+                    "typeGuid": "ea45accb-89d5-4816-9831-f116045b90e4",
+                    "instanceGuid": "5c412de8-fe3e-7096-8886-68cd72080597",
+                    "de8f8da2-d37f-41da-bc6e-580435fe605f": {
+                        "position": [
+                            0.0
+                        ]
+                    },
+                    "ea45accb-89d5-4816-9831-f116045b90e4": {
+                        "audio_asset": "4c2fed81-0d4a-8002-f2aa-dd4ab464ac1c",
+                        "looping": true,
+                        "volume": 1.0,
+                        "outer_radius": 5.0
+                    },
+                    "data_components": [
                         {
-                            "typeGuid": "e81f4e62-fee0-4182-9c1a-a47c053b813f",
-                            "instanceGuid": "F1F53E44-C7ED-4735-B88D-D0D4D2A3C868",
-                            "10dceba7-be9f-4a9d-9902-6f51bed634ab": {
-                                "physical_material": "db5dc618-2cfe-44e9-a319-69c503d090e7",
-                                "comOffset": [
-                                    0.0
-                                ]
-                            },
-                            "e81f4e62-fee0-4182-9c1a-a47c053b813f": {
-                                "half_extent": [
-                                    1.0,
-                                    1.0,
-                                    0.2
-                                ]
-                            },
-                            "data_components": [
-                                {
-                                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
-                                },
-                                {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Plane Collider"
-                                }
-                            ]
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Engine SFX"
                         }
                     ]
                 }
