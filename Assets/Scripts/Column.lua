@@ -1,8 +1,8 @@
 local changeOffsetXPosition = -4.5
 local resetValuesXPosition = 4.0
 
-local minZOffest = -1.0
-local maxZOffset = 1.0
+local minZOffest = -0.5
+local maxZOffset = 0.5
 local zOffsetDistance = maxZOffset - minZOffest
 
 local hasUpdatedOffset = false

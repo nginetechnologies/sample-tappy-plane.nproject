@@ -2,7 +2,7 @@
 local gameScale = 1.0
 
 local gravity = -9.8
-local tapForce = 2.0
+local tapForce = 4.0
 
 local zVelocity = 0.0
 
