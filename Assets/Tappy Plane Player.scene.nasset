@@ -75,6 +75,45 @@
                         {
                             "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
                             "name": "Plane Body"
+                        },
+                        {
+                            "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
+                            "mask": [
+                                "d6a09c51-8ccf-416e-8154-66f9404d2a44"
+                            ]
+                        }
+                    ],
+                    "children": [
+                        {
+                            "typeGuid": "e81f4e62-fee0-4182-9c1a-a47c053b813f",
+                            "instanceGuid": "5dfb40fe-3825-8b2f-3752-c9d8935b3e94",
+                            "10dceba7-be9f-4a9d-9902-6f51bed634ab": {
+                                "physical_material": "db5dc618-2cfe-44e9-a319-69c503d090e7",
+                                "comOffset": [
+                                    0.0
+                                ]
+                            },
+                            "e81f4e62-fee0-4182-9c1a-a47c053b813f": {
+                                "half_extent": [
+                                    0.5
+                                ]
+                            },
+                            "data_components": [
+                                {
+                                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                                    "templateInstanceGuid": "5dfb40fe-3825-8b2f-3752-c9d8935b3e94"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Box Collider"
+                                },
+                                {
+                                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
+                                    "mask": [
+                                        "d6a09c51-8ccf-416e-8154-66f9404d2a44"
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 },

@@ -54,24 +54,24 @@
             "instanceGuid": "6fbf0838-32a1-e1c1-3987-2a33f984364f",
             "data_components": [
                 {
-                    "typeGuid": "1e7d22e0-52c4-4c64-8c37-20887eaee664"
+                    "typeGuid": "b17f5afc-5476-4345-82ae-56ea87607d17"
                 },
                 {
-                    "typeGuid": "0eac250f-0917-43ea-871f-b6ae73ececf9"
+                    "typeGuid": "1e7d22e0-52c4-4c64-8c37-20887eaee664"
                 },
                 {
                     "typeGuid": "f1dad7f0-0053-4a05-af00-0cc2a88f1913",
                     "asset": "ca38d06e-ea90-404e-af3d-749c406c6c09"
                 },
                 {
-                    "typeGuid": "b60ddb15-deda-47d5-a53b-7a7289bc8ae3"
-                },
-                {
-                    "typeGuid": "b17f5afc-5476-4345-82ae-56ea87607d17"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "6fbf0838-32a1-e1c1-3987-2a33f984364f"
+                },
+                {
+                    "typeGuid": "0eac250f-0917-43ea-871f-b6ae73ececf9"
+                },
+                {
+                    "typeGuid": "b60ddb15-deda-47d5-a53b-7a7289bc8ae3"
                 }
             ]
         },
@@ -111,7 +111,7 @@
                     0.0
                 ],
                 "scale": [
-                    1.3706
+                    1.3703
                 ]
             },
             "data_components": [
@@ -131,12 +131,6 @@
         {
             "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
             "instanceGuid": "1d43c23d-187c-762d-8c4d-2b6325379ae3",
-            "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground Dirt"
-                }
-            ],
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
                     0.0,
@@ -149,6 +143,16 @@
                     1.9032
                 ]
             },
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Ground Dirt"
+                },
+                {
+                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                    "templateInstanceGuid": "1d43c23d-187c-762d-8c4d-2b6325379ae3"
+                }
+            ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
                 "scene": "dec467aa-5f4b-b968-f095-f3a9754365f4"
             }
@@ -156,12 +160,6 @@
         {
             "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
             "instanceGuid": "c267f6b0-5292-13f1-6e3f-b5c678327775",
-            "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground Dirt.001"
-                }
-            ],
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
                     0.0,
@@ -169,9 +167,9 @@
                     2.0
                 ],
                 "rotation": [
-                    -179.9999,
+                    -179.9992,
                     0.0,
-                    -179.9999
+                    -179.9992
                 ],
                 "scale": [
                     1.0,
@@ -179,6 +177,16 @@
                     2.0
                 ]
             },
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Ground Dirt.001"
+                },
+                {
+                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                    "templateInstanceGuid": "c267f6b0-5292-13f1-6e3f-b5c678327775"
+                }
+            ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
                 "scene": "dec467aa-5f4b-b968-f095-f3a9754365f4"
             }
@@ -266,23 +274,12 @@
             "instanceGuid": "5ae2ecc9-2f0c-426f-a688-0f175b739f8e",
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
-                    -0.0364,
+                    -2.4535,
                     0.0,
                     0.0
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "ColumnHolder"
-                },
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "5ae2ecc9-2f0c-426f-a688-0f175b739f8e"
-                },
                 {
                     "typeGuid": "a8afbfa1-eba8-4228-b269-86b8ada445ec",
                     "spline": {
@@ -293,6 +290,17 @@
                     "override": false,
                     "applyRotation": false,
                     "mode": 1
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "ColumnHolder"
+                },
+                {
+                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
+                },
+                {
+                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                    "templateInstanceGuid": "5ae2ecc9-2f0c-426f-a688-0f175b739f8e"
                 }
             ],
             "children": [
@@ -308,16 +316,16 @@
                             "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
                         },
                         {
+                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                            "templateInstanceGuid": "be48f43f-969b-48cb-a84d-a61b48390934"
+                        },
+                        {
                             "typeGuid": "b4924268-895a-49b7-b1e9-e1b3969394d1",
                             "asset": "12d1690a-6d29-7084-7f72-7ecc2b62b3d4",
                             "properties": {
                                 "typeGuid": "def8d15b-ca64-49ea-b388-afdf6c6a5b21",
                                 "def8d15b-ca64-49ea-b388-afdf6c6a5b21": {}
                             }
-                        },
-                        {
-                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                            "templateInstanceGuid": "be48f43f-969b-48cb-a84d-a61b48390934"
                         }
                     ],
                     "children": [
@@ -361,8 +369,8 @@
                                     "data_components": [
                                         {
                                             "typeGuid": "653ee503-f473-47d2-be45-08a577d17b86",
-                                            "type": 0,
-                                            "layer": 0,
+                                            "type": 1,
+                                            "layer": 3,
                                             "body_flags": 1,
                                             "maximumAngularVelocity": 2699.9997,
                                             "overriddenMass": 0.0,
@@ -456,16 +464,16 @@
                                     "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
                                 },
                                 {
+                                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                                    "templateInstanceGuid": "86e9c251-36da-69f2-9a69-e533a97c4dbb"
+                                },
+                                {
                                     "typeGuid": "b4924268-895a-49b7-b1e9-e1b3969394d1",
                                     "asset": "6f7f5e6e-537f-3a70-9981-1b27437db013",
                                     "properties": {
                                         "typeGuid": "def8d15b-ca64-49ea-b388-afdf6c6a5b21",
                                         "def8d15b-ca64-49ea-b388-afdf6c6a5b21": {}
                                     }
-                                },
-                                {
-                                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                    "templateInstanceGuid": "86e9c251-36da-69f2-9a69-e533a97c4dbb"
                                 }
                             ],
                             "children": [
@@ -541,8 +549,8 @@
                                     "data_components": [
                                         {
                                             "typeGuid": "653ee503-f473-47d2-be45-08a577d17b86",
-                                            "type": 0,
-                                            "layer": 0,
+                                            "type": 1,
+                                            "layer": 3,
                                             "body_flags": 1,
                                             "maximumAngularVelocity": 2699.9997,
                                             "overriddenMass": 0.0,
@@ -622,32 +630,140 @@
             ]
         },
         {
-            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-            "instanceGuid": "899eb7b5-7b87-5840-d9e8-aa47ccc53dfe",
+            "typeGuid": "bb15f0a1-1644-44b2-9f6c-4c09ec7c7370",
+            "instanceGuid": "ae503c91-0f4b-4cbf-9342-8c43b63b0587",
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
-                    0,
-                    0,
-                    -3
+                    0.0,
+                    0.0,
+                    3.0
                 ],
                 "scale": [
-                    11.8779,
-                    2.1706,
-                    1
+                    12.0,
+                    3.0,
+                    1.0
                 ]
             },
             "data_components": [
                 {
+                    "typeGuid": "653ee503-f473-47d2-be45-08a577d17b86",
+                    "type": 0,
+                    "layer": 3,
+                    "body_flags": 1,
+                    "maximumAngularVelocity": 2699.9997,
+                    "overriddenMass": 0.0,
+                    "gravityScale": 1.0
+                },
+                {
                     "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "HazardSensor"
+                    "name": "Hazard Sensor Top"
                 },
                 {
                     "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
+                },
+                {
+                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                    "templateInstanceGuid": "f397ecbe-da46-40f2-9751-26e85cc48487"
                 }
             ],
-            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                "scene": "e97e2232-f5fe-47cc-99b5-36ad43501c8c"
-            }
+            "children": [
+                {
+                    "typeGuid": "e81f4e62-fee0-4182-9c1a-a47c053b813f",
+                    "instanceGuid": "1ad0ce42-806e-497c-9fda-887ee58e6811",
+                    "10dceba7-be9f-4a9d-9902-6f51bed634ab": {
+                        "physical_material": "db5dc618-2cfe-44e9-a319-69c503d090e7",
+                        "comOffset": [
+                            0.0
+                        ]
+                    },
+                    "e81f4e62-fee0-4182-9c1a-a47c053b813f": {
+                        "half_extent": [
+                            0.5
+                        ]
+                    },
+                    "data_components": [
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Box Collider"
+                        },
+                        {
+                            "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
+                        },
+                        {
+                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                            "templateInstanceGuid": "5dfb40fe-3825-8b2f-3752-c9d8935b3e94"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "typeGuid": "bb15f0a1-1644-44b2-9f6c-4c09ec7c7370",
+            "instanceGuid": "948eaa4b-de42-1d4a-6092-708492ccc3d4",
+            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
+                "position": [
+                    0.0,
+                    0.0,
+                    -3.0
+                ],
+                "scale": [
+                    12.0,
+                    3.0,
+                    1.0
+                ]
+            },
+            "data_components": [
+                {
+                    "typeGuid": "653ee503-f473-47d2-be45-08a577d17b86",
+                    "type": 0,
+                    "layer": 3,
+                    "body_flags": 1,
+                    "maximumAngularVelocity": 2699.9997,
+                    "overriddenMass": 0.0,
+                    "gravityScale": 1.0
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Hazard Sensor Bottom"
+                },
+                {
+                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
+                },
+                {
+                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                    "templateInstanceGuid": "f397ecbe-da46-40f2-9751-26e85cc48487"
+                }
+            ],
+            "children": [
+                {
+                    "typeGuid": "e81f4e62-fee0-4182-9c1a-a47c053b813f",
+                    "instanceGuid": "5dfb40fe-3825-8b2f-3752-c9d8935b3e94",
+                    "10dceba7-be9f-4a9d-9902-6f51bed634ab": {
+                        "physical_material": "db5dc618-2cfe-44e9-a319-69c503d090e7",
+                        "comOffset": [
+                            0.0
+                        ]
+                    },
+                    "e81f4e62-fee0-4182-9c1a-a47c053b813f": {
+                        "half_extent": [
+                            0.5
+                        ]
+                    },
+                    "data_components": [
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Box Collider"
+                        },
+                        {
+                            "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
+                        },
+                        {
+                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                            "templateInstanceGuid": "5dfb40fe-3825-8b2f-3752-c9d8935b3e94"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "typeGuid": "37000929-8ed6-4f15-a9ec-4f7d15302f02",
@@ -810,7 +926,7 @@
     ],
     "assetTypeGuid": "807d69a9-56ec-4032-bb92-d081df336672",
     "metadata": {
-        "bfb3d666-cd09-4266-af70-8cb9fc5f5d5b": "{\"position\":[-2.592226505279541,-10.982011795043946,5.3590898513793949],\"rotation\":[-17.44843864440918,-8.39939895413977e-10,-10.507966041564942]}"
+        "bfb3d666-cd09-4266-af70-8cb9fc5f5d5b": "{\"position\":[-16.063854217529298,-6.751560688018799,7.885367393493652],\"rotation\":[-48.62333679199219,3.996496502622904e-7,-48.35210418701172]}"
     },
     "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
         "scene": "f6605f9d-73a8-43a7-a39e-8b3a2a501375"
