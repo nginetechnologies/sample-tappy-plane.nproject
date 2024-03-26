@@ -1,9 +1,0 @@
-{
-    "guid": "5cda1860-fab3-4703-8d5e-6be3f95bbd87",
-    "source": "Explosion-4.wav",
-    "assetTypeGuid": "5985a03a-dfc4-4338-b0cd-09f757c4a114",
-    "typeGuid": "ea45accb-89d5-4816-9831-f116045b90e4",
-    "ea45accb-89d5-4816-9831-f116045b90e4": {
-        "audio_asset": "5cda1860-fab3-4703-8d5e-6be3f95bbd87"
-    }
-}

@@ -1,9 +1,0 @@
-{
-    "guid": "3db6ae4d-e8ea-9711-5544-1958bf263580",
-    "source": "Power-Up-7.wav",
-    "assetTypeGuid": "5985a03a-dfc4-4338-b0cd-09f757c4a114",
-    "typeGuid": "ea45accb-89d5-4816-9831-f116045b90e4",
-    "ea45accb-89d5-4816-9831-f116045b90e4": {
-        "audio_asset": "3db6ae4d-e8ea-9711-5544-1958bf263580"
-    }
-}

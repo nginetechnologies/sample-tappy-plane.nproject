@@ -6,53 +6,14 @@
     "2a2bce0a-6314-481b-a5a0-7d01e1c00b35": {
         "radius": 4096.0
     },
-    "data_components": [
-        {
-            "typeGuid": "05a7011d-a220-49f2-98df-81b32be3c0fd",
-            "camera_settings": {
-                "typeGuid": "9ae0e145-86b4-4e47-afda-697bbd008922",
-                "9ae0e145-86b4-4e47-afda-697bbd008922": {
-                    "fieldOfView": 60.0,
-                    "nearPlane": 0.1,
-                    "farPlane": 128.0
-                }
-            },
-            "transform": {
-                "position": [
-                    -5.8113,
-                    -6.7401,
-                    1.7124
-                ],
-                "rotation": [
-                    -7.9723,
-                    0.0,
-                    -37.568
-                ]
-            },
-            "grid_settings": {
-                "typeGuid": "ecc5ac5d-5450-4808-97b1-e25d91462d96",
-                "ecc5ac5d-5450-4808-97b1-e25d91462d96": {
-                    "transform": {
-                        "position": [
-                            -28.0,
-                            12.0,
-                            4.0
-                        ],
-                        "scale": [
-                            -1.0,
-                            -1.0,
-                            1.0
-                        ]
-                    }
-                }
-            }
-        }
-    ],
     "children": [
         {
             "typeGuid": "d2c2c3a5-b813-4ab8-b52f-7986940e5b67",
-            "instanceGuid": "6fbf0838-32a1-e1c1-3987-2a33f984364f",
+            "instanceGuid": "3007bcaa-22bf-42e5-d85a-b0ec8e2678f8",
             "data_components": [
+                {
+                    "typeGuid": "b60ddb15-deda-47d5-a53b-7a7289bc8ae3"
+                },
                 {
                     "typeGuid": "b17f5afc-5476-4345-82ae-56ea87607d17"
                 },
@@ -60,18 +21,20 @@
                     "typeGuid": "1e7d22e0-52c4-4c64-8c37-20887eaee664"
                 },
                 {
+                    "typeGuid": "0eac250f-0917-43ea-871f-b6ae73ececf9"
+                },
+                {
+                    "typeGuid": "22dce412-2016-4019-8392-90ff0294a32e"
+                },
+                {
                     "typeGuid": "f1dad7f0-0053-4a05-af00-0cc2a88f1913",
                     "asset": "ca38d06e-ea90-404e-af3d-749c406c6c09"
                 },
                 {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "6fbf0838-32a1-e1c1-3987-2a33f984364f"
+                    "typeGuid": "7adde0df-a07d-45dc-999e-80066aed55a9"
                 },
                 {
-                    "typeGuid": "0eac250f-0917-43ea-871f-b6ae73ececf9"
-                },
-                {
-                    "typeGuid": "b60ddb15-deda-47d5-a53b-7a7289bc8ae3"
+                    "typeGuid": "a45076cb-ff23-4203-b378-c9c1e4eb98a6"
                 }
             ]
         },
