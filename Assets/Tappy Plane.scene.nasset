@@ -9,7 +9,6 @@
     "children": [
         {
             "typeGuid": "d2c2c3a5-b813-4ab8-b52f-7986940e5b67",
-            "instanceGuid": "3007bcaa-22bf-42e5-d85a-b0ec8e2678f8",
             "data_components": [
                 {
                     "typeGuid": "b60ddb15-deda-47d5-a53b-7a7289bc8ae3"
@@ -25,10 +24,6 @@
                 },
                 {
                     "typeGuid": "22dce412-2016-4019-8392-90ff0294a32e"
-                },
-                {
-                    "typeGuid": "f1dad7f0-0053-4a05-af00-0cc2a88f1913",
-                    "asset": "ca38d06e-ea90-404e-af3d-749c406c6c09"
                 },
                 {
                     "typeGuid": "7adde0df-a07d-45dc-999e-80066aed55a9"
